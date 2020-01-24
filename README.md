@@ -8,28 +8,11 @@ The installer file you need depends on the Operating System that the collector w
 
 | Operating System       | Installer | 
 |------------------------|-----------|
-| Debian Server (x64)    | [fw-collector_amd64.deb](https://github.com/1stBasisConsulting/First-Watch-Collector/releases/download/latest/fw-collector_amd64.deb) |
-| Suse Linux Enterprise Server (x64) | [fw-collector_amd64.rpm](#nothing) |
-| Red Hat Enterprise Linux Server (x64) | [fw-collector_amd64.rpm](#nothing) |
-| Ubuntu Server (x64)    | [fw-collector_amd64.deb](https://github.com/1stBasisConsulting/First-Watch-Collector/releases/download/latest/fw-collector_amd64.deb) |
+| Suse Linux Enterprise Server (x64) | [fw-collector.rpm](https://github.com/1stBasisConsulting/First-Watch-Collector/releases/download/latest/fw-collector.rpm) |
+| Red Hat Enterprise Linux Server (x64) | [fw-collector.rpm](https://github.com/1stBasisConsulting/First-Watch-Collector/releases/download/latest/fw-collector.rpm) |
+| Ubuntu Server (x64)    | [fw-collector.deb](https://github.com/1stBasisConsulting/First-Watch-Collector/releases/download/latest/fw-collector.deb) |
 | Windows Server (x64)   | [InstallFirstWatch.exe](https://github.com/1stBasisConsulting/First-Watch-Collector/releases/download/latest/InstallFirstWatch.exe) |
 
 # How to Install
 
-### Debian-based systems (such as Ubuntu)
-
-Use the `dpkg` command to install the package.  You must have root privileges or use the sudo command to install it.
-
-```
-sudo dpkg -i fw-collector_amd64.deb
-```
-
-The installer will walk you through the required options.
-
-### SUSE based systems
-
-### Red Hat based systems
-
-### Windows-based systems
-
-Run the executable file to bring up a wizard that will guide you through the installation process.
+Installation instructions can be found at the First Watch knowledge base located [here](https://support.1stwatchmonitoring.com/hc/en-us/articles/360038269132).
